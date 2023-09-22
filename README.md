@@ -157,8 +157,10 @@ application's resource folder**/
 ### ==========================================
 ### Pub/Sub Configurations in application.prop
 ### =========================================
+ ```
 google.cloud.pubsub.project-id= your-project-id
 google.cloud.pubsub.topic-id= your-topic-id
+ ```
 
 5. Autowire PubsubService in your controller and you can publish data like below:
     @Autowired

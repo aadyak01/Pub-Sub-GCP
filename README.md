@@ -99,8 +99,9 @@ public class PubsubService {
 
      //String jsonKeyPath = "path-to-your-service-account-key.json";
 
-		/**However keeping your service-account-key.json file anywhere in the project is not recommended but providing jsonKeyPath to your local won't work on dev, qa or any other env
-      Here is a way to make it compatible on every environment, for this keep service-account-key.json in your application's resource folder**/
+/**However keeping your service-account-key.json file anywhere in the project is not recommended but providing jsonKeyPath to your local won't work on
+dev, qa or any other env.Here is a way to make it compatible on every environment, for this keep service-account-key.json in your
+application's resource folder**/
 
 		InputStream inputStream = PubsubService.class.getResourceAsStream("/service-account-key.json");
 		
@@ -153,9 +154,9 @@ public class PubsubService {
 
 4. Replace the placeholders in the code with your own Google Cloud project ID, topic ID, and the path to your service account JSON key file/service account JSON key kept in app resource folder. Define all the placeholders in your application.prop like below:
 
-# ===============================
-# Pub/Sub Configurations in application.prop
-# ===============================
+### ==========================================
+### Pub/Sub Configurations in application.prop
+### =========================================
 google.cloud.pubsub.project-id= your-project-id
 google.cloud.pubsub.topic-id= your-topic-id
 

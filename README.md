@@ -173,7 +173,11 @@ Make sure you have the necessary permissions and authentication set up to access
 ## Handling Errors and Exceptions
 Implement error handling to gracefully manage any issues during publishing.
 **Try-Catch Blocks:**
-To handle exceptions in your code, you use try-catch blocks.The code that might throw an exception is placed inside the try block. In the catch block, you specify what should happen if an exception of a specific type occurs. Multiple catch blocks can be used to handle different types of exceptions. (Refer above code snippet for more clarity)
+To handle exceptions in your code, you can use try-catch blocks.
+1. The code that might throw an exception is placed inside the try block.
+2. In the catch block, you specify what should happen if an exception of a specific type occurs.
+3. Multiple catch blocks can be used to handle different types of exceptions.
+4. (Refer above code snippet for more clarity)
 
 ## Testing Your Publisher
 Verify that your Java application can successfully publish messages to the Pub/Sub topic. You can do that by pulling the published message via subscriber's PULL option on GCP. 

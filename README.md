@@ -185,6 +185,10 @@ Verify that your Java application can successfully publish messages to the Pub/S
 ## Additional Features and Best Practices
 1. Explore advanced features like message batching and custom attributes.
 2. Follow best practices for efficient message publishing.
+
+## Miscellaneous
+1. https://cloud.google.com/pubsub/pricing#:~:text=Pub/Sub%20automatically,of%20the%20messages.
+2. https://stackoverflow.com/questions/72938042/google-pub-sub-multiple-topics-v-s-multiple-subscription-filters
    
 ## Conclusion
 Congratulations! You've successfully set up a Google Cloud Pub/Sub publisher in your SprinBoot application. Feel free to customize this code to suit your specific use case.
